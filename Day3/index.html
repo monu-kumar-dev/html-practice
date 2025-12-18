@@ -1,0 +1,31 @@
+<!-- How we access photos which is present in other file -->
+
+<!-- Relative Path -->
+<img src="../Day2/img1.png" alt="random pic" width="100px">
+
+<!-- Absolute Path -->
+<img src="C:\Users\snghm\Downloads\Project3.png" alt="random pic" width="100px">
+<img src="C:\Users\snghm\OneDrive\Desktop\Web Dev NEXUS\HTML\Day2\img2.png" alt="random pic" width="100px">
+
+<!--
+Relative Path: ../Day2/img1.png
+Absolute Path: C:\Users\snghm\OneDrive\Desktop\Web Dev NEXUS\HTML\Day2\img1.png
+-->
+<!-- HW:- why absolute path does not work here, Think and give the reason? -->
+
+<!--
+📌 NOTE: Why absolute path doesn't work in HTML
+
+Relative Path (✅ works):
+../Day2/img1.png
+✔ Refers to file location relative to the current HTML file.
+✔ Browser can access it because it's within the project folder.
+
+Absolute Path (❌ doesn't work):
+C:\Users\snghm\OneDrive\Desktop\Web Dev NEXUS\HTML\Day2\img1.png
+✖ This is a Windows file system path.
+✖ Browsers block local absolute paths for security reasons.
+✖ Not a valid URL – browser can't locate or access this file.
+
+✅ Always use relative paths or proper web URLs in HTML for images and file links.
+-->
